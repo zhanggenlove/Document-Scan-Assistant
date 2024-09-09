@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "Dacă îți place %@, acordă-ne o notă te rugăm, nu durează mult. \nMulțumim pentru susținere!";
+"Rate %@" = "Acordă o notă pentru %@";
+"Write a review on App Store" = "Scrieți-ne o recenzie în App Store";
+"No, Thanks" = "Nu, mulțumesc";
+"Remind me later" = "Adu-mi aminte mai târziu";

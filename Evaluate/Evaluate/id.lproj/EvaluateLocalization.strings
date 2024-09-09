@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "Jika anda menyukai %@, maukah anda memberikan rating kepada aplikasi ini? Rating hanya memakan waktu kurang dari 1 menit. \nTerimakasih untuk dukungan anda!";
+"Rate %@" = "Rating %@";
+"Write a review on App Store" = "Tulis ulasan di App Store";
+"No, Thanks" = "Tidak, terimakasih";
+"Remind me later" = "Silakan ingatkan saya lagi";

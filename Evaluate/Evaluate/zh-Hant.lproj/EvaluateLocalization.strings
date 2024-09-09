@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "如果你喜歡使用「%@」，你介意花一點時間給它評分嗎？不會超過一分鐘。感謝您的支持！";
+"Rate %@" = "給「%@」評分";
+"Write a review on App Store" = "在App Store中撰寫評論";
+"No, Thanks" = "不，謝謝";
+"Remind me later" = "稍後提醒我";

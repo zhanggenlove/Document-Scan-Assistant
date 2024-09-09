@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  文档扫描小助手
+
+  Created by 张根 on 2023/4/23.
+  
+*/
+"app.name" = "Document Assistant";
+// HOME VC
+"HomeVC.empty.addtips" = "Click the ＋ button to add files or import from the photo album";
+"HomeVC.alert.title" = "hint";
+"HomeVC.alert.pretext" = "confirm delete";
+"HomeVC.alert.submit" = "Confirm";
+"HomeVC.alert.cancel" = "Cancel";
+"HomeVC.alert.recentFile" = "Recent files";
+"HomeVC.alert.delete" = "Delete";
+"HomeVC.alert.rename" = "Rename";
+"HomeVC.page" = "Page";
+
+// EditorViewController
+"EditorVC.action.contents" = "Contents";
+"EditorVC.action.edit" = "Edit";
+"EditorVC.action.share" = "Share";
+"EditorVC.action.more" = "More";
+"EditorVC.action.adddoc" = "Add document";
+"EditorVC.action.adddoc" = "Select from album";
+"EditorVC.action.from.album" = "Choose from album";
+"EditorVC.action.doc.scan" = "Document scan";
+"EditorVC.action.add" = "Add";
+"EditorVC.action.save" = "Save";
+
+// CreateFolderController
+"CreateFolder.field.text" = "New Folder";
+"CreateFolder.field.placeholder" = "Please enter folder name";
+"CreateFolder.nav.back" = "Back";
+"CreateFolder.nav.done" = "Done";
+"CreateFolder.errorText.text" = "Folder name cannot be empty";
+"CreateFolder.errorText.reg.text" = "The file name cannot contain";
+
+//PDFCatalogController
+"PDFCatalogVC.segment.first" = "Thumbnail";
+"PDFCatalogVC.segment.second" = "Contents";
+
+//PDFCatalogTableController
+"PDFCatalogTableVC.empty.msg" = "This document has no table of contents";
+
+//EditMoreViewController
+"EditMoreVC.search" = "Full-text search";
+"EditMoreVC.rename" = "Rename";
+"EditMoreVC.printer" = "Print";
+"EditMoreVC.transh" = "Delete";
+"EditMoreVC.email" = "Send email";
+"EditMoreVC.get.text" = "Text extraction";
+"EditMoreVC.drop" = "Add watermark";
+"EditMoreVC.alert.pretext" = "confirm delete";
+"EditMoreVC.alert.page" = "Page";
+"EditMoreVC.email.succ" = "Email sent successfully";
+"EditMoreVC.email.fail" = "Failed to send email";
+
+// SettingViewController
+"Setting.title" = "Setting";
+"Setting.rate" = "Evaluation";
+"Setting.feedback" = "Feedback";
+"Setting.restore" = "Restore Purchase";
+"Setting.premium" = "Powering up for love, upgrade to premium";
+"Setting.terms" = "Terms of Service";
+"Setting.pravicy" = "Privacy policy";
+"Setting.restore.succ" = "Purchase restored successfully";
+"Setting.wallpaper" = "动态壁纸(macos)";
+"Setting.keyboard" = "快捷键盘";
+
+// TableHeaderView
+"TableHeaderView.long.press" = "Long press 👉🏻 here to add folder";
+"TableHeaderView.label.all.folder" = "All folders";
+"TableHeaderView.add.folder" = "Add Folder";
+
+// ActionSheet
+"ActionSheet.scan" = "Document Scan";
+"ActionSheet.new.folder" = "New Folder";
+"ActionSheet.from.album" = "From Album";
+"ActionSheet.sys.file" = "Select File";
+
+// define
+"define.file.succ" = "File saved successfully";
+
+// FileRenameViewController
+"FileRenameVC.file.name" = "File name";
+"FileRenameVC.folder.name" = "Folder name";
+"FileRenameVC.file.placeholder" = "Please enter the file name";
+"FileRenameVC.folder.placeholder" = "Please enter folder name";
+"FileRenameVC.file.null.error" = "File name cannot be empty";
+"FileRenameVC.folder.null.error" = "Folder name cannot be empty";
+"FileRenameVC.file.legal.error" = "Invalid file name";
+"FileRenameVC.folder.legal.error" = "Invalid folder name";
+
+// PDFSearchViewController
+"PDFSearchVC.searchBar.placeholder" = "Search keywords";
+"PDFSearchVC.page.label" = "Page number";
+"PDFSearchVC.regCountLabel.text" = "result";
+
+// PDFTextViewController
+"PDFText.copy.text" = "Copy";
+"PDFText.text.get" = "Text extraction";
+"PDFText.text.get.succ" = "Copy successful";
+
+// WatermarkViewController
+"WatermarkVC.copyright.text" = "All rights reserved";
+"WatermarkVC.apply.text" = "Apply";
+"WatermarkVC.title" = "Add watermark";
+
+// PurchaseViewController
+"PurchaseVC.features.1" = "Scan document unlimited times";
+"PurchaseVC.features.2" = "Add watermark to document";
+"PurchaseVC.features.3" = "Permanently remove ads";
+"PurchaseVC.titleLabel.text" = "Unrestricted access";
+"PurchaseVC.subtitleLabel.text" = "Access all our features and unlock restrictions";
+"PurchaseVC.tipsText.text" = "When making a purchase, payment will be charged from your Apple ID account. If you have already made a purchase, you can restore it by clicking on 'Restore Purchase'.";
+"PurchaseVC.btnTitle" = "Congratulations💐 Premium";
+"PurchaseVC.loading" = "loading";
+"PurchaseVC.get.all.feature" = "Unlock all features";
+"PurchaseVC.purchase.fail" = "Purchase failed";
+
+// AppDelegate
+"AppDelegate.alertAppStoreTitle" = "like”Document Assistant“?";
+"AppDelegate.alertMessage" = "If you like my app, please take a moment to rate it ⭐️. Thank you for your support.";
+"AppDelegate.alertCancelTitle" = "No, thanks";

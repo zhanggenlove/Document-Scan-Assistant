@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC85C1E9258026780013C376 /* Evaluate.h in Headers */ = {isa = PBXBuildFile; fileRef = EC85C1E7258026780013C376 /* Evaluate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC85C1F1258026820013C376 /* Evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC85C1F0258026820013C376 /* Evaluate.swift */; };
+		EC85C1F5258026C20013C376 /* UserPreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC85C1F4258026C20013C376 /* UserPreferencesManager.swift */; };
+		EC85C1FE25802A590013C376 /* EvaluateLocalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC85C20025802A590013C376 /* EvaluateLocalization.strings */; };
+		EC85C27C25803D730013C376 /* EvaluateReviewAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC85C27B25803D730013C376 /* EvaluateReviewAlertController.swift */; };
+		ECCAFB5C258BB75D00E799E8 /* EvaluateUIAlertConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB5B258BB75D00E799E8 /* EvaluateUIAlertConfig.swift */; };
+		ECCAFB62258BB85A00E799E8 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB61258BB85A00E799E8 /* Bundle+Extensions.swift */; };
+		ECCAFB66258BB87800E799E8 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB65258BB87800E799E8 /* UIApplication+Extensions.swift */; };
+		ECCAFB6A258BB8AF00E799E8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB69258BB8AF00E799E8 /* UIViewController+Extensions.swift */; };
+		ECCAFB73258BBB9700E799E8 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB72258BBB9700E799E8 /* String+Extensions.swift */; };
+		ECCAFB76258BBC8300E799E8 /* EvaluateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAFB75258BBC8300E799E8 /* EvaluateHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC85C1E4258026780013C376 /* Evaluate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Evaluate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC85C1E7258026780013C376 /* Evaluate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
+		EC85C1E8258026780013C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC85C1F0258026820013C376 /* Evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evaluate.swift; sourceTree = "<group>"; };
+		EC85C1F4258026C20013C376 /* UserPreferencesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferencesManager.swift; sourceTree = "<group>"; };
+		EC85C1FF25802A590013C376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20225802A830013C376 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20425802A8E0013C376 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20525802A960013C376 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C20625802AA70013C376 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20725802AB20013C376 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20825802AB90013C376 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C20925802ABC0013C376 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C20A25802AC50013C376 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20B25802ACB0013C376 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20C25802AD30013C376 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20D25802AE00013C376 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20E25802AEB0013C376 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C20F25802AF10013C376 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21025802AF80013C376 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21125802B1D0013C376 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21225802B220013C376 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21325802B2B0013C376 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21425802B390013C376 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21525802B3F0013C376 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21625802B480013C376 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21725802B530013C376 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21825802B5D0013C376 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21925802B620013C376 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21A25802B680013C376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21B25802B6D0013C376 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21C25802B730013C376 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21D25802B7D0013C376 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21E25802B810013C376 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C21F25802B860013C376 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22125802E250013C376 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C22225802ED80013C376 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C22425802F350013C376 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C22525802F850013C376 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22625802F8F0013C376 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22725802F940013C376 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22825802FA10013C376 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22925802FB50013C376 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/EvaluateLocalization.strings"; sourceTree = "<group>"; };
+		EC85C22A25802FE60013C376 /* af */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/EvaluateLocalization.strings; sourceTree = "<group>"; };
+		EC85C27B25803D730013C376 /* EvaluateReviewAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReviewAlertController.swift; sourceTree = "<group>"; };
+		ECCAFB5B258BB75D00E799E8 /* EvaluateUIAlertConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateUIAlertConfig.swift; sourceTree = "<group>"; };
+		ECCAFB61258BB85A00E799E8 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		ECCAFB65258BB87800E799E8 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		ECCAFB69258BB8AF00E799E8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		ECCAFB72258BBB9700E799E8 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		ECCAFB75258BBC8300E799E8 /* EvaluateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC85C1E1258026780013C376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC85C1DA258026780013C376 = {
+			isa = PBXGroup;
+			children = (
+				EC85C1E6258026780013C376 /* Evaluate */,
+				EC85C1E5258026780013C376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC85C1E5258026780013C376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC85C1E4258026780013C376 /* Evaluate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC85C1E6258026780013C376 /* Evaluate */ = {
+			isa = PBXGroup;
+			children = (
+				EC85C1E7258026780013C376 /* Evaluate.h */,
+				EC85C1F0258026820013C376 /* Evaluate.swift */,
+				ECCAFB75258BBC8300E799E8 /* EvaluateHelper.swift */,
+				ECCAFB5B258BB75D00E799E8 /* EvaluateUIAlertConfig.swift */,
+				EC85C1F4258026C20013C376 /* UserPreferencesManager.swift */,
+				ECCAFB70258BBA0B00E799E8 /* Extensions */,
+				EC85C20025802A590013C376 /* EvaluateLocalization.strings */,
+				EC85C1E8258026780013C376 /* Info.plist */,
+			);
+			path = Evaluate;
+			sourceTree = "<group>";
+		};
+		ECCAFB70258BBA0B00E799E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAFB61258BB85A00E799E8 /* Bundle+Extensions.swift */,
+				ECCAFB72258BBB9700E799E8 /* String+Extensions.swift */,
+				ECCAFB65258BB87800E799E8 /* UIApplication+Extensions.swift */,
+				EC85C27B25803D730013C376 /* EvaluateReviewAlertController.swift */,
+				ECCAFB69258BB8AF00E799E8 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC85C1DF258026780013C376 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC85C1E9258026780013C376 /* Evaluate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC85C1E3258026780013C376 /* Evaluate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC85C1EC258026780013C376 /* Build configuration list for PBXNativeTarget "Evaluate" */;
+			buildPhases = (
+				EC85C1DF258026780013C376 /* Headers */,
+				EC85C1E0258026780013C376 /* Sources */,
+				EC85C1E1258026780013C376 /* Frameworks */,
+				EC85C1E2258026780013C376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evaluate;
+			productName = Evaluate;
+			productReference = EC85C1E4258026780013C376 /* Evaluate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC85C1DB258026780013C376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC85C1E3258026780013C376 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = EC85C1DE258026780013C376 /* Build configuration list for PBXProject "Evaluate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				"zh-Hans",
+				ja,
+				es,
+				"pt-BR",
+				"pt-PT",
+				id,
+				el,
+				it,
+				nl,
+				ru,
+				th,
+				cs,
+				ca,
+				uk,
+				vi,
+				da,
+				pl,
+				tr,
+				he,
+				hu,
+				ar,
+				ko,
+				fi,
+				ro,
+				sv,
+				ms,
+				"zh-Hant",
+				hr,
+				hi,
+				sk,
+				"en-GB",
+				"en-AU",
+				"en-IN",
+				"fr-CA",
+				"es-419",
+				af,
+			);
+			mainGroup = EC85C1DA258026780013C376;
+			productRefGroup = EC85C1E5258026780013C376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC85C1E3258026780013C376 /* Evaluate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC85C1E2258026780013C376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC85C1FE25802A590013C376 /* EvaluateLocalization.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC85C1E0258026780013C376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCAFB66258BB87800E799E8 /* UIApplication+Extensions.swift in Sources */,
+				ECCAFB5C258BB75D00E799E8 /* EvaluateUIAlertConfig.swift in Sources */,
+				EC85C27C25803D730013C376 /* EvaluateReviewAlertController.swift in Sources */,
+				ECCAFB6A258BB8AF00E799E8 /* UIViewController+Extensions.swift in Sources */,
+				ECCAFB73258BBB9700E799E8 /* String+Extensions.swift in Sources */,
+				ECCAFB62258BB85A00E799E8 /* Bundle+Extensions.swift in Sources */,
+				EC85C1F1258026820013C376 /* Evaluate.swift in Sources */,
+				EC85C1F5258026C20013C376 /* UserPreferencesManager.swift in Sources */,
+				ECCAFB76258BBC8300E799E8 /* EvaluateHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC85C20025802A590013C376 /* EvaluateLocalization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC85C1FF25802A590013C376 /* en */,
+				EC85C20225802A830013C376 /* de */,
+				EC85C20425802A8E0013C376 /* fr */,
+				EC85C20525802A960013C376 /* zh-Hans */,
+				EC85C20625802AA70013C376 /* ja */,
+				EC85C20725802AB20013C376 /* es */,
+				EC85C20825802AB90013C376 /* pt-BR */,
+				EC85C20925802ABC0013C376 /* pt-PT */,
+				EC85C20A25802AC50013C376 /* id */,
+				EC85C20B25802ACB0013C376 /* el */,
+				EC85C20C25802AD30013C376 /* it */,
+				EC85C20D25802AE00013C376 /* nl */,
+				EC85C20E25802AEB0013C376 /* ru */,
+				EC85C20F25802AF10013C376 /* th */,
+				EC85C21025802AF80013C376 /* cs */,
+				EC85C21125802B1D0013C376 /* ca */,
+				EC85C21225802B220013C376 /* uk */,
+				EC85C21325802B2B0013C376 /* vi */,
+				EC85C21425802B390013C376 /* da */,
+				EC85C21525802B3F0013C376 /* pl */,
+				EC85C21625802B480013C376 /* tr */,
+				EC85C21725802B530013C376 /* he */,
+				EC85C21825802B5D0013C376 /* hu */,
+				EC85C21925802B620013C376 /* ar */,
+				EC85C21A25802B680013C376 /* ko */,
+				EC85C21B25802B6D0013C376 /* fi */,
+				EC85C21C25802B730013C376 /* ro */,
+				EC85C21D25802B7D0013C376 /* sv */,
+				EC85C21E25802B810013C376 /* ms */,
+				EC85C21F25802B860013C376 /* zh-Hant */,
+				EC85C22125802E250013C376 /* hr */,
+				EC85C22225802ED80013C376 /* hi */,
+				EC85C22425802F350013C376 /* sk */,
+				EC85C22525802F850013C376 /* en-GB */,
+				EC85C22625802F8F0013C376 /* en-AU */,
+				EC85C22725802F940013C376 /* en-IN */,
+				EC85C22825802FA10013C376 /* fr-CA */,
+				EC85C22925802FB50013C376 /* es-419 */,
+				EC85C22A25802FE60013C376 /* af */,
+			);
+			name = EvaluateLocalization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC85C1EA258026780013C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC85C1EB258026780013C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC85C1ED258026780013C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = Evaluate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mistergrizzly.Evaluate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC85C1EE258026780013C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = Evaluate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mistergrizzly.Evaluate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC85C1DE258026780013C376 /* Build configuration list for PBXProject "Evaluate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC85C1EA258026780013C376 /* Debug */,
+				EC85C1EB258026780013C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC85C1EC258026780013C376 /* Build configuration list for PBXNativeTarget "Evaluate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC85C1ED258026780013C376 /* Debug */,
+				EC85C1EE258026780013C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC85C1DB258026780013C376 /* Project object */;
+}

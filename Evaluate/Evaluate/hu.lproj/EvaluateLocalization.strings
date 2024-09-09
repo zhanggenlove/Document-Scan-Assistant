@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "Ha tetszik a %@, ne felejtsd el értékelni az App Store-ban! Csak egy perc az egész. \nKöszönet a támogatásért!";
+"Rate %@" = "%@ értékelése";
+"Write a review on App Store" = "Írjon véleményt az App Store-ban";
+"No, Thanks" = "Most inkább nem";
+"Remind me later" = "Emlékeztess később";

@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "Se ti piace %@, dagli una nota, non ci vorrà molto. \nGrazie per il vostro sostegno!";
+"Rate %@" = "Dai un voto per %@";
+"Write a review on App Store" = "Scrivi una recensione nell'App Store";
+"No, Thanks" = "No, grazie";
+"Remind me later" = "Ricordamelo più tardi";

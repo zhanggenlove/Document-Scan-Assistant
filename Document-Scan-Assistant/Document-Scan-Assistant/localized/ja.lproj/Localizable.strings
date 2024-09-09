@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  文档扫描小助手
+
+  Created by 张根 on 2023/4/23.
+  
+*/
+"app.name" = "書類アシスタント";
+// HOME VC
+"HomeVC.empty.addtips" = "ボタンをクリックしてファイルを追加するか、カメラロールからインポートします";
+"HomeVC.alert.title" = "ヒント";
+"HomeVC.alert.pretext" = "削除の確認";
+"HomeVC.alert.submit" = "確定";
+"HomeVC.alert.cancel" = "キャンセル";
+"HomeVC.alert.recentFile" = "最近のファイル";
+"HomeVC.alert.delete" = "削除";
+"HomeVC.alert.rename" = "名前を変更する";
+"HomeVC.page" = "ページ";
+
+// EditorViewController
+"EditorVC.action.contents" = "目次";
+"EditorVC.action.edit" = "編集";
+"EditorVC.action.share" = "共有";
+"EditorVC.action.more" = "もっと";
+"EditorVC.action.adddoc" = "ドキュメントを追加する";
+"EditorVC.action.adddoc" = "アルバムから選択";
+"EditorVC.action.from.album" = "アルバムから選択する";
+"EditorVC.action.doc.scan" = "文書のスキャン";
+"EditorVC.action.add" = "追加";
+"EditorVC.action.save" = "保存";
+
+// CreateFolderController
+"CreateFolder.field.text" = "新しいフォルダ";
+"CreateFolder.field.placeholder" = "フォルダ名を入力してください";
+"CreateFolder.nav.back" = "戻る";
+"CreateFolder.nav.done" = "完成";
+"CreateFolder.errorText.text" = "フォルダ名は空にできません";
+"CreateFolder.errorText.reg.text" = "ファイル名には含めることができません";
+
+//PDFCatalogController
+"PDFCatalogVC.segment.first" = "サムネイル";
+"PDFCatalogVC.segment.second" = "目次";
+
+//PDFCatalogTableController
+"PDFCatalogTableVC.empty.msg" = "このドキュメントには目次がありません";
+
+//EditMoreViewController
+"EditMoreVC.search" = "全文検索";
+"EditMoreVC.rename" = "名前を変更する";
+"EditMoreVC.printer" = "印刷する";
+"EditMoreVC.transh" = "削除";
+"EditMoreVC.email" = "メールを送信する";
+"EditMoreVC.get.text" = "テキスト抽出";
+"EditMoreVC.drop" = "ウォーターマークを追加する";
+"EditMoreVC.alert.pretext" = "削除の確認";
+"EditMoreVC.alert.page" = "ページ";
+"EditMoreVC.email.succ" = "メールの送信に成功しました";
+"EditMoreVC.email.fail" = "メールの送信に失敗しました";
+
+// SettingViewController
+"Setting.title" = "設定";
+"Setting.rate" = "評価";
+"Setting.feedback" = "フィードバック";
+"Setting.restore" = "購入を復元する";
+"Setting.premium" = "愛のためにエネルギーを供給し、プレミアムにアップグレード";
+"Setting.terms" = "利用規約";
+"Setting.pravicy" = "プライバシーポリシー";
+"Setting.restore.succ" = "購入が正常に復元されました";
+"Setting.wallpaper" = "动态壁纸(macos)";
+"Setting.keyboard" = "快捷键盘";
+
+// TableHeaderView
+"TableHeaderView.long.press" = "長押ししてフォルダを追加";
+"TableHeaderView.label.all.folder" = "すべてのフォルダ";
+"TableHeaderView.add.folder" = "フォルダを追加する";
+
+// ActionSheet
+"ActionSheet.scan" = "スキャン";
+"ActionSheet.new.folder" = "新しいフォルダ";
+"ActionSheet.from.album" = "写真アルバム";
+"ActionSheet.sys.file" = "ファイルを選択";
+
+// define
+"define.file.succ" = "ファイルが正常に保存されました";
+
+// FileRenameViewController
+"FileRenameVC.file.name" = "ファイル名";
+"FileRenameVC.folder.name" = "フォルダ名";
+"FileRenameVC.file.placeholder" = "ファイル名を入力してください";
+"FileRenameVC.folder.placeholder" = "フォルダ名を入力してください";
+"FileRenameVC.file.null.error" = "ファイル名は空にできません";
+"FileRenameVC.folder.null.error" = "フォルダ名は空にできません";
+"FileRenameVC.file.legal.error" = "ファイル名が無効です";
+"FileRenameVC.folder.legal.error" = "フォルダ名が無効です";
+
+// PDFSearchViewController
+"PDFSearchVC.searchBar.placeholder" = "キーワード検索";
+"PDFSearchVC.page.label" = "ページ番号";
+"PDFSearchVC.regCountLabel.text" = "結果";
+
+// PDFTextViewController
+"PDFText.copy.text" = "コピー";
+"PDFText.text.get" = "テキスト抽出";
+"PDFText.text.get.succ" = "コピーが成功しました";
+
+// WatermarkViewController
+"WatermarkVC.copyright.text" = "著作権所有";
+"WatermarkVC.apply.text" = "確定";
+"WatermarkVC.title" = "ウォーターマークを追加";
+
+// PurchaseViewController
+"PurchaseVC.features.1" = "無制限に文書をスキャン";
+"PurchaseVC.features.2" = "文書に透かしを追加する";
+"PurchaseVC.features.3" = "広告を永久に削除する";
+"PurchaseVC.titleLabel.text" = "制限なしのアクセス";
+"PurchaseVC.subtitleLabel.text" = "私たちのすべての機能にアクセスし、制限を解除してください";
+"PurchaseVC.tipsText.text" = "購入する際には、お支払いはお客様のApple IDアカウントから請求されます。すでに購入済みの場合は、「購入の復元」をクリックして復元することができます";
+"PurchaseVC.btnTitle" = "おめでとうございます💐Premium";
+"PurchaseVC.loading" = "読み込み中";
+"PurchaseVC.get.all.feature" = "すべての機能を解除する";
+"PurchaseVC.purchase.fail" = "購入に失敗しました";
+
+// AppDelegate
+"AppDelegate.alertAppStoreTitle" = "好き”書類アシスタント“?";
+"AppDelegate.alertMessage" = "私のアプリが気に入っていただけましたら、ぜひ評価をお願いします⭐️。ご支援いただきありがとうございます。";
+"AppDelegate.alertCancelTitle" = "いいえ、ありがとう";

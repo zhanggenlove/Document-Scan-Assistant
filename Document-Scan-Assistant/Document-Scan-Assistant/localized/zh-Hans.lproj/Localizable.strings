@@ -1,0 +1,125 @@
+/* 
+  Localizable.strings
+  文档扫描小助手
+
+  Created by 张根 on 2023/4/23.
+  
+*/
+"app.name" = "文档扫描小助手";
+// HOME VC
+"HomeVC.empty.addtips" = "点击右下角＋按钮添加文件或从相册导入¨̮";
+"HomeVC.alert.title" = "提示";
+"HomeVC.alert.pretext" = "确定删除";
+"HomeVC.alert.submit" = "确定";
+"HomeVC.alert.cancel" = "取消";
+"HomeVC.alert.recentFile" = "最近文件";
+"HomeVC.alert.delete" = "删除";
+"HomeVC.alert.rename" = "重命名";
+"HomeVC.page" = "页";
+
+// EditorViewController
+"EditorVC.action.contents" = "目录";
+"EditorVC.action.edit" = "编辑";
+"EditorVC.action.share" = "分享";
+"EditorVC.action.more" = "更多";
+"EditorVC.action.adddoc" = "添加文稿";
+"EditorVC.action.from.album" = "从相册选择";
+"EditorVC.action.doc.scan" = "文档扫描";
+"EditorVC.action.add" = "添加";
+"EditorVC.action.save" = "保存";
+
+// CreateFolderController
+"CreateFolder.field.text" = "新建文件夹";
+"CreateFolder.field.placeholder" = "请输入文件夹名称";
+"CreateFolder.nav.back" = "返回";
+"CreateFolder.nav.done" = "完成";
+"CreateFolder.errorText.text" = "文件夹名称不能为空";
+"CreateFolder.errorText.reg.text" = "文件名不能包含";
+
+//PDFCatalogController
+"PDFCatalogVC.segment.first" = "缩略图";
+"PDFCatalogVC.segment.second" = "目录";
+
+//PDFCatalogTableController
+"PDFCatalogTableVC.empty.msg" = "该文档没有目录哦";
+
+//EditMoreViewController
+"EditMoreVC.search" = "全文搜索";
+"EditMoreVC.rename" = "重命名";
+"EditMoreVC.printer" = "打印";
+"EditMoreVC.transh" = "删除";
+"EditMoreVC.email" = "发送邮件";
+"EditMoreVC.get.text" = "文本提取";
+"EditMoreVC.drop" = "添加水印";
+"EditMoreVC.alert.pretext" = "确定删除";
+"EditMoreVC.alert.page" = "页";
+"EditMoreVC.email.succ" = "发送邮件成功";
+"EditMoreVC.email.fail" = "发送邮件失败";
+
+// SettingViewController
+"Setting.title" = "设置";
+"Setting.rate" = "评价";
+"Setting.feedback" = "反馈";
+"Setting.restore" = "恢复购买";
+"Setting.premium" = "为爱发电，升级premium";
+"Setting.terms" = "服务条款";
+"Setting.pravicy" = "隐私政策";
+"Setting.restore.succ" = "恢复购买成功";
+"Setting.wallpaper" = "动态壁纸(macos)";
+"Setting.keyboard" = "快捷键盘";
+
+// TableHeaderView
+"TableHeaderView.long.press" = "长按👉🏻这里添加文件夹";
+"TableHeaderView.label.all.folder" = "全部文件夹";
+"TableHeaderView.add.folder" = "添加文件夹";
+
+// ActionSheet
+"ActionSheet.scan" = "文档扫描";
+"ActionSheet.new.folder" = "新建文件夹";
+"ActionSheet.from.album" = "从相册导入";
+"ActionSheet.sys.file" = "选择文件";
+
+// define
+"define.file.succ" = "文件保存成功";
+
+// FileRenameViewController
+"FileRenameVC.file.name" = "文件名称";
+"FileRenameVC.folder.name" = "文件夹名称";
+"FileRenameVC.file.placeholder" = "请输入文件名";
+"FileRenameVC.folder.placeholder" = "请输入文件夹名";
+"FileRenameVC.file.null.error" = "文件名称不能为空";
+"FileRenameVC.folder.null.error" = "文件夹名称不能为空";
+"FileRenameVC.file.legal.error" = "文件名称不合法";
+"FileRenameVC.folder.legal.error" = "文件夹名称不合法";
+
+// PDFSearchViewController
+"PDFSearchVC.searchBar.placeholder" = "搜索关键字";
+"PDFSearchVC.page.label" = "页码";
+"PDFSearchVC.regCountLabel.text" = "个结果";
+
+// PDFTextViewController
+"PDFText.copy.text" = "拷贝";
+"PDFText.text.get" = "文本提取";
+"PDFText.text.get.succ" = "拷贝成功";
+
+// WatermarkViewController
+"WatermarkVC.copyright.text" = "版权所有";
+"WatermarkVC.apply.text" = "应用";
+"WatermarkVC.title" = "添加水印";
+
+// PurchaseViewController
+"PurchaseVC.features.1" = "无限次数扫描文档";
+"PurchaseVC.features.2" = "文档添加水印";
+"PurchaseVC.features.3" = "永久移除广告";
+"PurchaseVC.titleLabel.text" = "无限制访问";
+"PurchaseVC.subtitleLabel.text" = "获得我们的所有功能和解除限制";
+"PurchaseVC.tipsText.text" = "在确认购买时，将从您的Apple ID账户中收取付款。如果您已经购买过，可通过点击「恢复购买」来恢复。";
+"PurchaseVC.btnTitle" = "您已获得全部权限和功能";
+"PurchaseVC.loading" = "加载中";
+"PurchaseVC.get.all.feature" = "解锁全部功能";
+"PurchaseVC.purchase.fail" = "购买失败";
+
+// AppDelegate
+"AppDelegate.alertAppStoreTitle" = "喜欢”文档扫描小助手“吗";
+"AppDelegate.alertMessage" = "如果您喜欢我的应用，请花一点时间为我评分⭐️。感谢您的支持，thanks！";
+"AppDelegate.alertCancelTitle" = "不, 谢谢";

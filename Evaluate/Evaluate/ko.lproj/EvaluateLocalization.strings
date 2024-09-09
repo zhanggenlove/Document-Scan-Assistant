@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "%@ 사용이 맘에 드셨나요? 잠시만 시간을 내서 평가를 부탁드리겠습니다. 감사합니다!";
+"Rate %@" = "%@ 평가하기";
+"Write a review on App Store" = "App Store에서 리뷰 작성";
+"No, Thanks" = "평가하지 않겠습니다";
+"Remind me later" = "다음에 평가하겠습니다";

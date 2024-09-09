@@ -1,0 +1,12 @@
+/* 
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "%@をお使いいただきありがとうございます。もしよろしければ、ほんの少しだけお時間をいただき評価をお願いできませんか？ご協力感謝いたします!";
+"Rate %@" = "%@を評価する";
+"Write a review on App Store" = "AppStoreでレビューを書く";
+"No, Thanks" ="結構です";
+"Remind me later" = "あとで";

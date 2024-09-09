@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  文档扫描小助手
+
+  Created by 张根 on 2023/4/23.
+  
+*/
+"app.name" = "문서 도우미";
+// HOME VC
+"HomeVC.empty.addtips" = "버튼을 클릭하여 파일을 추가하거나 카메라 롤에서 가져오기";
+"HomeVC.alert.title" = "힌트";
+"HomeVC.alert.pretext" = "삭제 확인";
+"HomeVC.alert.submit" = "확인";
+"HomeVC.alert.cancel" = "취소";
+"HomeVC.alert.recentFile" = "최근 파일";
+"HomeVC.alert.delete" = "삭제";
+"HomeVC.alert.rename" = "이름 바꾸기";
+"HomeVC.page" = "페이지";
+
+// EditorViewController
+"EditorVC.action.contents" = "목차";
+"EditorVC.action.edit" = "편집";
+"EditorVC.action.share" = "공유";
+"EditorVC.action.more" = "더";
+"EditorVC.action.adddoc" = "문서 추가";
+"EditorVC.action.adddoc" = "앨범에서 선택";
+"EditorVC.action.from.album" = "앨범에서 선택";
+"EditorVC.action.doc.scan" = "문서 스캔";
+"EditorVC.action.add" = "추가";
+"EditorVC.action.save" = "저장";
+
+// CreateFolderController
+"CreateFolder.field.text" = "새 폴더";
+"CreateFolder.field.placeholder" = "폴더 이름을 입력하세요";
+"CreateFolder.nav.back" = "돌아가기";
+"CreateFolder.nav.done" = "완료";
+"CreateFolder.errorText.text" = "폴더 이름은 비워 둘 수 없습니다";
+"CreateFolder.errorText.reg.text" = "파일 이름에 포함 될 수 없습니다";
+
+//PDFCatalogController
+"PDFCatalogVC.segment.first" = "썸네일";
+"PDFCatalogVC.segment.second" = "목차";
+
+//PDFCatalogTableController
+"PDFCatalogTableVC.empty.msg" = "이 문서에 목차가 없습니다";
+
+//EditMoreViewController
+"EditMoreVC.search" = "전문 검색";
+"EditMoreVC.rename" = "이름 변경";
+"EditMoreVC.printer" = "인쇄";
+"EditMoreVC.transh" = "삭제";
+"EditMoreVC.email" = "이메일 보내기";
+"EditMoreVC.get.text" = "텍스트 추출";
+"EditMoreVC.drop" = "워터마크 추가";
+"EditMoreVC.alert.pretext" = "삭제 확인";
+"EditMoreVC.alert.page" = "페이지";
+"EditMoreVC.email.succ" = "이메일 전송 성공";
+"EditMoreVC.email.fail" = "이메일 전송 실패";
+
+// SettingViewController
+"Setting.title" = "설정";
+"Setting.rate" = "평가";
+"Setting.feedback" = "피드백";
+"Setting.restore" = "구매 복원";
+"Setting.premium" = "사랑을 위해 전력을 공급하고 프리미엄으로 업그레이드";
+"Setting.terms" = "利用規約";
+"Setting.pravicy" = "개인정보 처리 방침";
+"Setting.restore.succ" = "구매가 성공적으로 복원되었습니다";
+"Setting.wallpaper" = "动态壁纸(macos)";
+"Setting.keyboard" = "快捷键盘";
+
+// TableHeaderView
+"TableHeaderView.long.press" = "길게 눌러서 폴더 추가";
+"TableHeaderView.label.all.folder" = "모든 폴더";
+"TableHeaderView.add.folder" = "폴더 추가";
+
+// ActionSheet
+"ActionSheet.scan" = "문서 스캔";
+"ActionSheet.new.folder" = "새 폴더";
+"ActionSheet.from.album" = "앨범";
+"ActionSheet.sys.file" = "파일 선택";
+
+// define
+"define.file.succ" = "파일 저장 성공";
+
+// FileRenameViewController
+"FileRenameVC.file.name" = "파일 이름";
+"FileRenameVC.folder.name" = "폴더 이름";
+"FileRenameVC.file.placeholder" = "파일 이름을 입력하세요";
+"FileRenameVC.folder.placeholder" = "폴더 이름을 입력하세요";
+"FileRenameVC.file.null.error" = "파일 이름은 비워 둘 수 없습니다";
+"FileRenameVC.folder.null.error" = "폴더 이름은 비워 둘 수 없습니다";
+"FileRenameVC.file.legal.error" = "유효하지 않은 파일 이름입니다";
+"FileRenameVC.folder.legal.error" = "잘못된 폴더 이름입니다";
+
+// PDFSearchViewController
+"PDFSearchVC.searchBar.placeholder" = "검색 키워드";
+"PDFSearchVC.page.label" = "페이지 번호";
+"PDFSearchVC.regCountLabel.text" = "결과";
+
+// PDFTextViewController
+"PDFText.copy.text" = "복사";
+"PDFText.text.get" = "텍스트 추출";
+"PDFText.text.get.succ" = "복사 성공";
+
+// WatermarkViewController
+"WatermarkVC.copyright.text" = "저작권 소유";
+"WatermarkVC.apply.text" = "확인";
+"WatermarkVC.title" = "워터마크 추가";
+
+// PurchaseViewController
+"PurchaseVC.features.1" = "무제한으로 문서를 스캔";
+"PurchaseVC.features.2" = "문서에 워터마크 추가";
+"PurchaseVC.features.3" = "광고를 영구적으로 제거하기";
+"PurchaseVC.titleLabel.text" = "제한 없는 접근";
+"PurchaseVC.subtitleLabel.text" = "모든 기능에 접근하고 제한을 해제하세요";
+"PurchaseVC.tipsText.text" = "구매 시 Apple ID 계정에서 결제가 청구됩니다. 이미 구매한 경우 '구매 복원'을 클릭하여 복원할 수 있습니다.";
+"PurchaseVC.btnTitle" = "축하합니다💐Premium";
+"PurchaseVC.loading" = "로딩 중";
+"PurchaseVC.get.all.feature" = "모든 기능 잠금 해제";
+"PurchaseVC.purchase.fail" = "구매 실패";
+
+// AppDelegate
+"AppDelegate.alertAppStoreTitle" = "좋아하다”문서 도우미“?";
+"AppDelegate.alertMessage" = "제 어플을 좋아하신다면, 잠시 시간 내어 평점을 부탁드립니다⭐️. 지원해주셔서 감사합니다.";
+"AppDelegate.alertCancelTitle" = "아니요, 감사합니다";

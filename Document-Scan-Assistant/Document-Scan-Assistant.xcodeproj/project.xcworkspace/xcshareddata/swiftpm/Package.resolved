@@ -1,0 +1,24 @@
+{
+  "originHash" : "26fc55944dfcb4981a77e0bc170a8955651dae6a64440ff51d802d1ad44d5d11",
+  "pins" : [
+    {
+      "identity" : "splarkcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPLarkController",
+      "state" : {
+        "revision" : "43a7cb50d8369fa04e8a252f2e5c277fb95ab6f1",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "spring",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zhanggenlove/Spring.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c9ee6f8bda91e04b37f75da6ddec1633a28c8d8a"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  文档扫描小助手
+
+  Created by 张根 on 2023/7/21.
+  
+*/
+"CFBundleDisplayName" = "文档扫描小助手";
+
+
+"NSCameraUsageDescription" = "用您的摄像头扫描文档";

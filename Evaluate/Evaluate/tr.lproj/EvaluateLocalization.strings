@@ -1,0 +1,12 @@
+/*
+  EvaluateLocalization.strings
+  Evaluate
+
+  Created by Mister Grizzly on 12/8/20.
+*/
+
+"Rater.title" = "Eğer %@ uygulamasını kullanmaktan keyif alıyorsanız, onu değerlendirmek için zaman ayırabilir misiniz? Desteğiniz için teşekkür ederiz!";
+"Rate %@" = "%@ uygulamasını değerlendir";
+"Write a review on App Store" = "App Store'da bir inceleme yazın";
+"No, Thanks" = "Hayır, teşekkürler";
+"Remind me later" = "Daha sonra hatırlat";
